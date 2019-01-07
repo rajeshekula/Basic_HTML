@@ -1,0 +1,97 @@
+.bg-blue {
+      background-color: #002D83;
+      box-shadow: #000 0px 2px 6px;
+    }
+    .bg{
+      background: url("../img/header_curve.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #0C4CC7;
+      height: 100%;
+      width: 100%;
+    }
+    
+    .text-main{
+      color: #00D2cc;
+      font-size: 50px;
+      font-weight: bold;
+      line-height: 1;
+      margin-top: 50px;
+    }
+    .tetx-2{
+      color: #fff;
+      padding-left: 0px;
+      position: relative;
+    }
+    body{
+      background: #0C4CC7;
+    }
+    .mar-20{
+      margin-top: 20px;
+    }
+    .mar-50{
+      margin-top: 50px;
+    }
+    .btn{
+      position: absolute;
+      bottom: 52px;
+      left: 0;
+      text-transform: uppercase;
+      border-radius: 20px;
+    }
+    .scroll_down{
+      text-align: center;
+      position: absolute;
+      bottom: 52px;
+      left: 50%;
+    }
+    
+    .col-right{
+      background-color: #002D83;
+      padding-right:  0px;
+    }
+    .right_part img{
+      margin-top: 25%;
+      margin-bottom: 15%;
+      margin-left: 10%;
+    }
+    .left_part{
+      margin-left: 55px;
+      margin-top: 20px;
+      color: #fff;
+    }
+    .left_part .heading {
+      color: #00D2cc;
+      font-weight: bold;
+      font-size: 50px;
+      line-height: 1;
+    }
+
+    .left_part .sub_heading{
+      font-size: 18px;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    .left_part .text{
+      margin-right: 30%;
+      margin-top: 10px;
+    }
+    @media (max-width: 480px){
+      .scroll_down{
+        bottom: 0;
+      }
+      .left_part{
+        margin-left: 0px;
+      }
+      .right_part img{
+        margin-left: 0;
+      }
+      .btn{
+        position: relative;
+        bottom: 0;
+      }
+      .text-main,.left_part .heading{
+        font-size: 25px;
+      }
+    }
